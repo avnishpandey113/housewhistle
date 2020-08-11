@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HouseWhistle - Get expert services at home</title>
+    <meta
+      name="description"
+      content="Choose home services from local professionals near you!"
+    />
+    <!-- website icon -->
+    <link
+      rel="shortcut icon"
+      href="Images/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/a90dfdce22.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap v4.5-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- titlepage section  -->
+
+    <section id="titlepage" class="colored-section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand brand-name" href="#">
+            <img
+              src="Images/android-chrome-192x192.png"
+              class="d-inline-block align-top brand-logo"
+              alt="brand-logo"
+              loading="lazy"
+            />
+            HOUSEWHISTLE
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-content"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#CTA"
+                  >Become A Partner <span class="sr-only"></span
+                ></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#CTA">Login | Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row title-box">
+          <div class="col-lg-6 img-column">
+            <img
+              class="title-img"
+              src="Images/cleaningldy.jpg"
+              alt="cleaning lady"
+            />
+          </div>
+          <div class="col-lg-6 title-text">
+            <p class="company-name">HOUSEWHISTLE</p>
+            <br />
+            <h1 class="moto">Quality home services anytime, anywhere</h1>
+            <br />
+            <p class="about">
+              The best local professionals to serve at your doorstep
+            </p>
+            <div class="form-group select-box">
+              <label for="locations" class="select-label"
+                >Where do you need a service?</label
+              >
+              <select class="form-control" id="locations">
+                <option value="" class="select-value-text" selected disabled>
+                  Select your city</option
+                >
+                <option value="Province" disabled>Saskatchewan</option>
+                <option value="#" class="city">Regina</option>
+                <option value="#" class="city">Saskatoon</option>
+                <option value="Province" disabled>Coming Soon..</option>
+                <option value="#" class="city">Prince Albert</option>
+                <option value="#" class="city">Moose Jaw</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+
+    <section id="features" class="white-section">
+      <div class="container-fluid">
+        <p class="section-heading">WHY <span>HOUSEWHISTLE?</span></p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card feature-cards">
+              <img
+                src="Images/icons8-pricing-100.png"
+                class="card-img-top feature-icon"
+                alt="price-tag-icon"
+              />
+              <div class="card-body">
+                <h5 class="card-title feature-name">Transparent Pricing</h5>
+                <p class="card-text feature-text">
+                  No hidden costs. See fixed prices before booking a service
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card feature-cards">
+              <img
+                src="Images/icons8-protect-100.png"
+                class="card-img-top feature-icon"
+                alt="protect-icon"
+              />
+              <div class="card-body">
+                <h5 class="card-title feature-name">Assurance Guaranteed</h5>
+                <p class="card-text feature-text">
+                  100% satisfaction guaranteed. If you're not satisfied give us
+                  a call in next 72 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card feature-cards">
+              <img
+                src="Images/icons8-user-group-100.png"
+                class="card-img-top feature-icon"
+                alt="user-group-icon"
+              />
+              <div class="card-body">
+                <h5 class="card-title feature-name">Professionals Only</h5>
+                <p class="card-text feature-text">
+                  The people chosen for the jobs are well trained and verified
+                  by our team
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="cta-feature-divider" />
+
+    <!-- CTA section -->
+    <section id="CTA" class="white-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 cta-left-side">
+            <p class="section-heading">Book proffesionals from your phone</p>
+            <p class="feature-text">
+              Enter your email to get the App download link
+            </p>
+            <form class="form-inline">
+              <label class="sr-only" for="inlineFormInputName2">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inlineFormInputName2"
+                placeholder="example"
+              />
+              <label class="sr-only" for="inlineFormInputGroupUsername2"
+                >Username</label
+              >
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inlineFormInputGroupUsername2"
+                  placeholder="email.com"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary submit-button">
+                Submit
+              </button>
+            </form>
+            <a href="https://www.apple.com/ca/ios/app-store/">
+              <img
+                src="Images/applelogo.svg"
+                alt="apple-app"
+                class="apple-icon"
+            /></a>
+            <a href="https://play.google.com/store?hl=en">
+              <img
+                src="Images/google-play-badge.png"
+                alt="andriod-app"
+                class="google-icon"
+            /></a>
+          </div>
+          <div class="col-lg-6 mobile-mock-pic">
+            <img
+              src="Images/screen1.png"
+              alt="app-display-mock"
+              class="screen1"
+            />
+            <img
+              src="Images/screen2.png"
+              alt="app-display-mock"
+              class="screen2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="footer" class="colored-section">
+      <div class="container-fluid">
+        <ul class="footer-part1">
+          <li class="footer-list1">
+            <a href="#" class="footer-links">About Us</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Terms & Conditions</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Privacy Policy</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Reviews</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Near Me</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Careers</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Gift Cards</a>
+          </li>
+          <li class="footer-list1">
+            <a href="#" class="footer-links">Contact Us</a>
+          </li>
+        </ul>
+        <hr class="footer-divider" />
+        <ul class="footer-part1">
+          <li class="footer-list2">Serving in</li>
+          <li class="footer-list2">
+            <a href="#" class="footer-links">Regina</a>
+          </li>
+          <li class="footer-list2">
+            <a href="#" class="footer-links">Saskatoon</a>
+          </li>
+        </ul>
+        <hr class="footer-divider" />
+        <div class="row">
+          <div class="col-lg-5 footer-brand">
+            <p>
+              <a class="navbar-brand brand-name2 footer-links" href="#">
+                <img
+                  src="Images/android-chrome-192x192.png"
+                  class="d-inline-block align-top brand-logo2"
+                  alt="brand-logo"
+                />HOUSEWHISTLE
+              </a>
+              <a href="#" class="footer-links">© Copyright 2020 HouseWhistle</a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+              <a href="https://twitter.com/explore" class="footer-links"
+                ><i class="fab fa-twitter social-icons"></i
+              ></a>
+              <a href="https://www.facebook.com/" class="footer-links"
+                ><i class="fab fa-facebook-square social-icons"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="footer-links"
+                ><i class="fab fa-instagram-square social-icons"></i
+              ></a>
+              <a href="https://www.youtube.com/" class="footer-links"
+                ><i class="fab fa-youtube social-icons"></i
+              ></a>
+              <a href="https://www.linkedin.com/" class="footer-links"
+                ><i class="fab fa-linkedin social-icons"></i
+              ></a>
+              <a href="https://www.pinterest.ca/" class="footer-links"
+                ><i class="fab fa-pinterest social-icons"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <a href="https://www.apple.com/ca/ios/app-store/">
+              <img
+                src="Images/applelogo.svg"
+                alt="apple-app"
+                class="apple-icon-footer"
+            /></a>
+            <a href="https://play.google.com/store?hl=en">
+              <img
+                src="Images/google-play-badge.png"
+                alt="andriod-app"
+                class="google-icon-footer"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+.colored-section {
+  background-color: black;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+/* containers */
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* headings */
+.section-heading {
+  font-size: 2.5rem;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+/* horizontal lines */
+.cta-feature-divider {
+  border: 0.4rem solid rgba(224, 224, 224, 0.8);
+}
+.footer-divider {
+  border: 0.25px solid rgba(224, 224, 224, 0.15);
+}
+
+/* titlepage section */
+#titlepage .container-fluid {
+  padding: 0;
+}
+.brand-logo {
+  width: 2.5rem;
+  height: 2rem;
+}
+.brand-name {
+  margin: 1% 10%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+.navbar-content {
+  margin: 1% 10%;
+}
+.nav-item {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+.nav-item:hover {
+  cursor: help;
+  text-decoration: underline;
+}
+.title-box {
+  margin: 0;
+}
+.img-column {
+  padding: 0;
+  max-height: 500px;
+}
+.title-img {
+  height: 100%;
+  width: 100%;
+}
+.title-text {
+  max-height: 500px;
+  background-color: black;
+  text-align: left;
+  filter: drop-shadow(-10px -5px 10px #101010);
+}
+.company-name {
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  margin: 5% 0% 0% 10%;
+  color: gray;
+}
+.moto {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0% 0% 0% 10%;
+}
+.about {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0% 0% 0% 10%;
+  color: gray;
+}
+.select-box {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin: 5% 0% 0% 10%;
+  padding: 3% 2%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  font-weight: bold;
+}
+.select-label {
+  font-size: 1.2rem;
+  margin-bottom: 7%;
+}
+
+.form-control {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.select-value-text {
+  display: none;
+}
+option[value="Province"] {
+  background-color: rgb(224, 224, 224);
+}
+
+/* feature section */
+.feature-cards {
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  background-color: #d4ebf2;
+}
+.feature-icon {
+  padding: 5%;
+  align-content: center;
+  text-align: center;
+  width: 35%;
+  height: 35%;
+}
+.feature-name {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.feature-text {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* CTA section */
+#CTA {
+  text-align: left;
+}
+.cta-left-side {
+  margin-top: 5%;
+}
+.submit-button {
+  margin-left: 8px;
+}
+.apple-icon {
+  width: 20%;
+ position: relative;
+  top: 20px;  
+}
+.google-icon {
+  width: 25%;
+  position: relative;
+  top: 20px;
+}
+.mobile-mock-pic {
+  position: absolute;
+  left: 50%;
+}
+.screen1 , .screen2 {
+  height: 425px;
+  width: 250px;
+  margin: 25px;
+}
+/* footer section */
+#footer {
+  text-align: left;
+  position: relative;
+}
+.footer-part1 {
+  padding: 0;
+}
+.footer-list1 {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.footer-links {
+  color: rgba(220, 220, 220, 0.9);
+}
+.footer-links:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer-list2 {
+  list-style: none;
+  font-weight: bold;
+  line-height: 2.5;
+}
+.footer-brand {
+  margin-top: 20px;
+}
+.brand-logo2 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.brand-name2 {
+  color: gray;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.social-icons {
+  margin: 25px 10px;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.5, 0.4);
+}
+.google-icon-footer {
+  width: 150px;
+  height: 60px;
+  }
+@media (max-width: 1286px) {
+  .mobile-mock-pic {
+    position: static;
+  }
+}
